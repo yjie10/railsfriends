@@ -13,3 +13,5 @@ $ rails generate controller #{webpage-name} index
 It will create some files such as the route, view.
 
 manually creating new page:
+
+- selling point of RoR: CRUD setup is extremely easy.
