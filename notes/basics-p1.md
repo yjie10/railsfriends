@@ -44,4 +44,8 @@ Rails 7.0.2.2 (my ver as of 03.26.22)
 
 ### Starting Web Server
 
-`$ bin/rails server`
+```
+$ bin/rails server
+or
+$ rails s
+```
