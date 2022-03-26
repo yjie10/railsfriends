@@ -1,6 +1,8 @@
+erb stands for embedded ruby.
+
 ### Creating a Webpage
 
-和 React 直接 create new file 不同，需要到 terminal 里写指令。
+terminal 指令来 create new page:
 
 ```
 $ rails generate
@@ -9,3 +11,5 @@ $ rails generate controller #{webpage-name} index
 ```
 
 It will create some files such as the route, view.
+
+manually creating new page:
