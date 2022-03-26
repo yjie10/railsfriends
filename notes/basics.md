@@ -41,3 +41,7 @@ Rails 7.0.2.2 (my ver as of 03.26.22)
 ### Create New Application
 
 `rails new #{application-name}`
+
+### Starting Web Server
+
+`$ bin/rails server`
