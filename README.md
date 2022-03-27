@@ -1,24 +1,51 @@
-# README
+### Prerequisites
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Ruby
+- SQLite3
+- Node.js
+- Yarn
 
-Things you may want to cover:
+#### Ruby
 
-* Ruby version
+```
+$ ruby --version
+ruby 2.7.0 or later (as of 03.26.22)
+```
 
-* System dependencies
+#### SQLite3
 
-* Configuration
+```
+$ sqlite3 --version
+装好了的话会报version
+```
 
-* Database creation
+#### Node.js & Yarn
 
-* Database initialization
+```
+$ node --version
+8.16.0 or later (as of 03.26.22)
 
-* How to run the test suite
+$ yarn --version
+1.22.0 or later (as of 03.26.22)
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Rails
 
-* Deployment instructions
+- after installing the pre-reqs, can finally install rails. After installing, check the version, if it doesn't report error, should be good to move forward.
 
-* ...
+```
+$ rails --version
+Rails 7.0.2.2 (my ver as of 03.26.22)
+```
+
+### Create New Application
+
+`rails new #{application-name}`
+
+### Starting Web Server
+
+```
+$ bin/rails server
+or
+$ rails s
+```
